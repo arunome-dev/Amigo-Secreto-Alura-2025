@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.sortear-btn {
+    width: 100%;
+    background-color: #2196F3;
+}
+
+.sortear-btn:hover {
+    background-color: #1976D2;
+}
+
+.resultado {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8f4ff;
+    border-radius: 5px;
+}
+
+.resultado img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#nombreGanador {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2196F3;
+}

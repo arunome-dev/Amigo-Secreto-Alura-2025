@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎁 Amigo Secreto</h1>
+        <div class="input-group">
+            <input type="text" id="nombreAmigo" placeholder="Ingresa el nombre de tu amigo">
+            <button onclick="agregarAmigo()">Adicionar</button>
+        </div>
+        <ul id="listaAmigos"></ul>
+        <button onclick="sortearAmigo()" class="sortear-btn">Sortear Amigo</button>
+        <div id="resultado" class="resultado">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3XMQ6CMBSA4R8XJydHd3+BG7g5+QNGNwdfwMHBwVdw8AUcHFwYjBqTQk3bQHlJv5QyfG1eC7TWWhNQBAYgA1LvY3gqgFJgXwB0QO09jKcCqAT2BUAHNN7DeCqAWmBfAHRAGzyMp4KoBfYFQAc0wcN4KohKYF8AdEA9PIynAqgF9gVAB9TCw3gqiFJgXwB0QCU8jKeCKAT2BUAHlMLDeCqIXGBfAHRAMTyMp4JIBfYFQAfcBfbVwO8nwK0/1gQjvAqgEdgXAB1QDQ/jqSAygX0B0AGl8DCeCiIR2BcAHXA7wngqiLuH8VQAPwH+3R+1j0qKAAAAAElFTkSuQmCC" alt="Regalo">
+            <span id="nombreGanador"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
